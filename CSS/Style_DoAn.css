@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+.button{
+	background-color: #E9A081;
+	color: white;
+	font-weight: bold;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.button2{
+	background-color: #FFFFFF;
+	color: #E9A081;
+	font-weight: bold;
+	border: solid 2px #E9A081;
+	text-align: center;
+	display: inline-block;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+.title{
+	color: #493228;
+	text-align: center;
+}
+.background-color{
+	background-color: #fbf6f4
+}
+.phanvung{
+	padding: 50px 0px;
+}
+
+/*Body*/
+body{
+	color: #808080;
+}
+
+/*Header*/
+#header{
+	background-color: #FFFFFF;
+}
+
+#logo{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #493228;
+}
+
+
+/*Tham quan căn hộ*/
+.tenphong{
+	background-color: #E9A081;
+	color: #FFFFFF;
+}
+#gallery .button{
+	background-color: #FFFFFF;
+	color: #808080;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#gallery .button1{
+  background-color: #fbf6f4; 
+  color: #808080; 
+  border: 2px solid #E9A081;
+}
+#gallery .button1:hover {
+  background-color: #E9A081;
+  color: white;
+}
+/*Các tiện nghi được ưa chuộng nhất*/
+#convenient li{
+	list-style-type: none;
+}
+#convenient li i{
+	color: #E9A081
+}
+
+/*Feeadback*/
+.buttonfeedback{
+	background-color: #FFFFFF;
+	color: #E9A081;
+	font-weight: bold;
+	border: 1.8px solid;
+	border-radius: none;
+}
+.fb-box{
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-right: 35px;
+}
+/*Footer*/
+#footer{
+	padding-bottom: 20px;padding-top: 30px;
+	background-color: #000000;color: #FFFFFF;
+}
+#footer ul li {
+    list-style-type: none;
+    color: #bfbfbf;
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
+#footer .thongtin a, #footer .chuyenhuong a{
+	color:#0bde0b;
+}
+.info_social_icons li {
+    display: inline-block;
+}
+.info_social_icons li a {
+    width: 49px;
+    height: 49px;
+    border: 2px solid #332f2f;
+    border-radius: 50%;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.facebook {
+    color: #3b5998;
+}
+.facebook:hover{
+	background: #3b5998;
+}
+.twitter {
+    color: #1da1f2;
+}
+.twitter:hover{
+	background: #1da1f2;
+}
+.google {
+    color: #dd4b39;
+}
+.google:hover{
+	background: #dd4b39;
+}
+.info_social_icons li a i {
+    line-height: 1.1em;
+}
+.info_social_icons li a:hover{
+	color:#fff;
+}

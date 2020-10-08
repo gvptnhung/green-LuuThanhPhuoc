@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Đồ Án</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/3f838e4efa.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="CSS/Style_DoAn.css" type="text/css">
+	<script src="https://kit.fontawesome.com/3f838e4efa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>	
+<!--	Header-->
+	<div class="container" id="header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand float-left" href="#" id="logo">CT HOLIC</a>
+		 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		 	</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Giới thiệu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Dịch vụ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Thư viện ảnh</a>
+					</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Tiện ích</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Nhận xét</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Liên hệ</a>
+					</li>
+					<button class="button">Đặt phòng</button>
+				</ul>
+			</div>
+	
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+	
+<!--	Banner-->
+<div class="container-fluid" id="banner">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<!--Indicators : Khai báo các slide-->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+		</ol>
+		  <!-- Wrapper for slides: Khai báo các hình ảnh/nội dung trong các slide -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="Image/rental1.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+						<h5>Căn hộ số 1</h5>
+				    </div>
+			    </div>
+			    <div class="carousel-item">
+			      	<img src="Image/rental2.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+				        <h5>Căn hộ số 2</h5>
+				        <p>180/110 Nguyễn Kiệm</p>
+				    </div>
+			    </div>
+			    <div class="carousel-item">
+			      	<img src="Image/rental3.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+				        <h5>Căn hộ số 3</h5>
+				        <p> 227 Nguyễn Văn Cừ</p>
+				    </div>
+			    </div>
+   			    <div class="carousel-item">
+			      	<img src="Image/rental4.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+				        <h5>Căn hộ số 4</h5>
+				        <p>233 Đinh Tiên Hoàng, Quận 1</p>
+				    </div>
+			    </div>
+			    <div class="carousel-item">
+			      	<img src="Image/rental5.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+				        <h5>Căn hộ số 5</h5>
+				        <p>312/15 Nguyễn Trãi, Quận 1 </p>
+				    </div>
+			    </div>
+			    <div class="carousel-item">
+			      	<img src="Image/rental6.webp" class="d-block w-100" alt="...">
+			        <div class="carousel-caption d-none d-md-block">
+				        <h5>Căn hộ số 6</h5>
+				        <p>2Bis Trần Quang Khải</p>
+				    </div>
+			    </div>
+		  </div>
+  		  <!-- Left and right controls: tạo nút di chuyển lùi, tới -->
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+	</div>
+</div>
+<!--	About-->
+	<div class="container-fluid background-color phanvung" id="about">	
+		<div class="container background-color">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="Image/about.jpg" class="img-fluid" />
+				</div>
+				<div class="col-sm-6">
+					<h1 class="title" style="color: #493228"> Chào mừng đến với <br>CT Holic</h1>
+					<p class="text-justify">
+						Holic home không nhà cao cửa rộng, chỉ là một chung cư nho nhỏ nằm nép mình ở bên cạnh Bến Nhà Rồng. Cách chợ Bến Thành và phố đi hộ Nguyễn Huệ chỉ 3 phút chạy xe (1,4 cây số), Holic home đủ thuận tiện nhưng cũng đủ tĩnh lặng cho những ai mong muốn sự yên bình nhưng ko rời xa phố thị.
+					</p>
+					<p>
+						Holic home là nơi dành cho những người yêu việc cảm nhận Sài Gòn từ bên trong. Được làm quen với âm thanh, con người, và những điều nho nhỏ làm Sài Gòn trở nên đặc biệt. Ở Holic, mọi thứ trôi qua chậm rãi, yên bình nhưng ko mất đi sự phồn hoa đô thị như cách người Sài Gòn sống.
+					</p>
+					<p>
+						Đến là 1 người khách, đi là một người bạn, hãy đến cảm nhận và trở thành một phần kí ức của nhau.
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+<!--	Gallery-->
+	<div class="container-fluid  background-color phanvung" id="gallery">	
+		<div class="container background-color">
+			<div class="title">
+				<h1>Tham quan căn hộ</h1>
+				<p>Cùng xem qua những căn hộ lung linh của CT Holic nào.</p>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental1.webp" alt="rental1" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 1</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>	
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental2.webp" alt="rental2" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 2</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>	
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental3.webp" alt="rental3" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 3</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>		
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental4.webp" alt="rental4" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 4</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>	
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental5.webp" alt="rental5" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 5</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>	
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<img src="Image/rental6.webp" alt="rental6" class="img-fluid" />
+					<div class="text-center tenphong">
+						<h4>Căn hộ số 6</h4>
+					</div>
+					<p></p>
+					<p></p>
+					<div class="text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					<p></p>
+					<p></p>
+						<h4>350.000 VNĐ</h4>
+						<button class="button button1">Đặt phòng</button>
+					</div>	
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+<!--	Các tiện nghi được ưa chuộng nhất-->
+	<div class="container-fluid background-color phanvung" id="convenient">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1 style="color: #644538">Tiện ích được ưa chuộng</h1>
+					<p></p>
+					<ul class="float-left">
+						<li><i class="fas fa-swimmer"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hồ bơi</li>
+						<li><p></p></li>
+						<li><i class="fas fa-shuttle-van"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xe đưa đón sân bay</li>
+						<li><p></p></li>
+						<li><i class="fas fa-wifi"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wifi</li>
+					</ul>
+					<ul class="float-left">
+						<li><i class="fas fa-dumbbell"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gym</li>
+						<li><p></p></li>
+						<li><i class="fas fa-glass-martini-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Quầy bar</li>
+						<li><p></p></li>
+						<li><i class="fas fa-coffee"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bữa sáng</li>
+					</ul>
+					<div class="clearfix"></div>
+					<button class="button">Đặt phòng</button>
+				</div>
+				<div class="col-lg-6">
+					<video autoplay controls width="550">
+					<source src="Video/Convenient.mp4" type="video/mp4"> 
+					Trình duyệt không hỗ trợ
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--	Hear from our guests-->
+	<div class="container-fluid background-color phanvung" id="feedback">
+		<div class="container">
+			<div class="title">
+				<h1>Nhận xét khách hàng</h1>
+				<p>CT Holic tự hào với những dịch vụ mà chúng tôi cung cấp.<br/>
+				Cùng lắng nghe những chia sẻ từ những vị khách dễ thương của CT Holic nào.</p>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-4" style="text-align: right">
+						<button class="button2">Để lại nhận xét</button>
+				</div>
+				<div class="col-4">
+					<button class="button">Đặt phòng</button>
+				</div>
+			</div>
+			<div class="row" style="padding: 20px 0px">
+				<div class="col-12 col-sm-2 fb-box">
+					<div class="float-left">
+						<img class="img-fluid" src="Image/testimonial3.webp"/>
+					</div>
+					<div class="float-left">
+						<h6>Bích Trâm</h6>
+						<h6>Bình Dương</h6>
+					</div>
+					<div class="clearfix"></div>
+					<p>Lorem ipsum dolor sit amet, essent quaestio evertitur vim in, an his porro sententiae. Hinc solet reprimique ea eos, cu dolores suavitate principes pro, putent quaestio scriptorem ea vis. </p>
+				</div>
+				<div class="col-12 col-sm-2 fb-box">
+					<div class="float-left">
+						<img class="img-fluid" src="Image/testimonial3.webp"/>
+					</div>
+					<div class="float-left">
+						<h6>Bích Trâm</h6>
+						<h6>Bình Dương</h6>
+					</div>
+					<div class="clearfix"></div>
+					<p>Lorem ipsum dolor sit amet, essent quaestio evertitur vim in, an his porro sententiae. Hinc solet reprimique ea eos, cu dolores suavitate principes pro, putent quaestio scriptorem ea vis. </p>
+				</div>
+				<div class="col-12 col-sm-2 fb-box">
+					<div class="float-left">
+						<img class="img-fluid" src="Image/testimonial4.webp"/>
+					</div>
+					<div class="float-left">
+						<h6>Bích Trâm</h6>
+						<h6>Bình Dương</h6>
+					</div>
+					<div class="clearfix"></div>
+					<p>Lorem ipsum dolor sit amet, essent quaestio evertitur vim in, an his porro sententiae. Hinc solet reprimique ea eos, cu dolores suavitate principes pro, putent quaestio scriptorem ea vis. </p>
+				</div>
+				<div class="col-12 col-sm-2 fb-box">
+					<div class="float-left">
+						<img class="img-fluid" src="Image/testimonial5.webp"/>
+					</div>
+					<div class="float-left">
+						<h6>Bích Trâm</h6>
+						<h6>Bình Dương</h6>
+					</div>
+					<div class="clearfix"></div>
+					<p>Lorem ipsum dolor sit amet, essent quaestio evertitur vim in, an his porro sententiae. Hinc solet reprimique ea eos, cu dolores suavitate principes pro, putent quaestio scriptorem ea vis. </p>
+				</div>
+				<div class="col-12 col-sm-2 fb-box">
+					<div class="float-left">
+						<img class="img-fluid" src="Image/testimonial5.webp"/>
+					</div>
+					<div class="float-left">
+						<h6>Bích Trâm</h6>
+						<h6>Bình Dương</h6>
+					</div>
+					<div class="clearfix"></div>
+					<p>Lorem ipsum dolor sit amet, essent quaestio evertitur vim in, an his porro sententiae. Hinc solet reprimique ea eos, cu dolores suavitate principes pro, putent quaestio scriptorem ea vis. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--	Footer-->
+<div class="container-fluid" id="footer">
+		<div class="row">
+			<div class="col-12 col-sm-4">
+				<h3>CT Holic Life</h3>
+				<p>Holic Life, đơn giản là hãy sống như chưa từng được sống, sống như thể ngày hôm nay là ngày cuối cùng chúng ta được sống trên cuộc đời này, không hoài, không phí và không quay đầu nuối tiếc về những điều đã qua.</p>
+			</div>
+			<div class="col-12 col-sm-4">
+				<h3>Thông tin liên lạc</h3>
+				<ul class="thongtin">
+					<li><i class="fas fa-map-marker fa-lg"></i>34-35 Bến Vân Đồn, Phường 12, Quận 4, HCM</li>
+					<li><i class="fas fa-envelope fa-lg"></i><a href="mailto:info@example.com">phuocluuthanh@gmail.com</a></li>
+					<li><i class="fas fa-phone fa-lg"></i>028 38123 456</li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-4">
+				<h3>Chuyển hướng đến</h3>
+				<ul class="chuyenhuong">
+					<li><span class="fas fa-angle-right fa-2x"></span><a class="scroll" href="#specials">Dịch vụ</a></li>
+					<li><span class="fas fa-angle-right fa-2x"></span><a class="scroll" href="#service">Thư viện ảnh</a></li>
+					<li><span class="fas fa-angle-right fa-2x"></span><a class="scroll" href="#menu">Tiện ích</a></li>
+					<li><span class="fas fa-angle-right fa-2x"></span><a class="scroll" href="#contact">Trang chủ</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 copy_right">
+				<p>&copy; 2020 Flavorful. All rights reserved | Design by <a href="mailto:phuocluuthanh@gmail.com">Lưu Thanh Phước</a></p>
+			</div>
+			<div class="col-md-6 w3_agile_copy_right">
+				<ul class="info_social_icons">
+					<li><a href="#" class="facebook"><i class="fab fa-facebook fa-3x"></i></a></li>
+					<li><a href="#" class="twitter"><i class="fab fa-twitter fa-3x"></i></a></li>
+					<li><a href="#" class="google"><i class="fab fa-google-plus fa-3x"></i></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
